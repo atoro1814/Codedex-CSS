@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+  
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1{
+    margin: 20px 0 20px 0px;
+}
+.nav-item{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding : 5px;
+    margin: 10px;
+    width: 33%;
+
+}
+main{
+    margin-top: 20px;
+}
+#staff-picks{
+    margin: 10px 0 10px 0px;
+    text-align: center;
+}
+#welcome > p{
+    text-align: center;
+    margin : 0em 5em 0em 5em;
+}
+#catalog-input , #form-btn{
+    text-align: center;
+    font-size: 1,25rem;
+    font-weight: 800;
+    padding: 8px;
+}
+#catalog-input{
+    border: 2px solid;
+    width: 37.5%;
+}
+.staff-pick-img{
+    border: 1px solid;
+    border-radius: 0 7px 7px 0;
+    width: 10em;
+    height: 15em;
+}
