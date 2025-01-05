@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#presentacion {
+    background-color: rgb(52,52,52);
+    text-align: center;
+    margin: auto;
+    padding: 10%;
+}
+h1{
+    color:rgb(255,255,240);;
+    font-size: 50px;
+    font-family: "Playwrite AU SA", serif;
+
+    
+
+}
+#presentacion > p {
+    color : rgb(255,255,240);
+    font-size: 18px;
+    font-family: "Playwrite AU SA", serif;
+
+}
+#presentacion > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 5px;
+}
+#about-me{
+    background-color: rgb(0, 51, 102);
+    
+}
+#img-about-me{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 5px;
+}
