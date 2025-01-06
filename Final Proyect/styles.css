@@ -3,43 +3,98 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    height: 100%;
-    width: 100%;
+    background-color: #DDD0C8;
 }
-#presentacion {
-    background-color: rgb(52,52,52);
+
+/* Menu Horizontal */
+nav{
+    background-color: #323232;
+}
+li{
+    display: inline-block;
+
+}
+ul{
     text-align: center;
-    margin: auto;
+    padding: 15px;
+}
+li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+li > a:hover {
+    color: #323232;
+    background-color: whitesmoke;
+    
+}
+#presentacion{
+    color: black;
+    background-image: url(https://i.pinimg.com/736x/e2/dc/9a/e2dc9a38a27b77190e0a04b20e8f185a.jpg);
+    text-align: center;
+    background-size: contain;
     padding: 10%;
 }
-h1{
-    color:rgb(255,255,240);;
-    font-size: 50px;
-    font-family: "Playwrite AU SA", serif;
-
-    
-
-}
-#presentacion > p {
-    color : rgb(255,255,240);
-    font-size: 18px;
-    font-family: "Playwrite AU SA", serif;
-
-}
-#presentacion > img {
+#presentacion > img{
     width: 200px;
     height: 200px;
-    border-radius: 100px;
-    margin: 5px;
+    border-radius: 50%;
 }
+
+/* About Me */
 #about-me{
-    background-color: rgb(0, 51, 102);
+    border-top : solid 2px;
+    padding: 60px;
+    text-align: center;
     
 }
-#img-about-me{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin: 5px;
+#about-me > h2 {
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    
+}
+#about-me > p{
+    color: #323232;
+}
+
+#about-me > img{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 2px solid #323232;
+  
+}
+#about-me-text{
+    display: inline-block;
+    max-width: 600px;
+    height: 400px;
+    vertical-align: top;
+    
+}
+#about-me-text > h2{
+    padding: 20px;
+}
+#description{
+    padding: 20px;
+}
+
+
+/* projects */
+
+#projects{
+    border: 2px solid #323232;
+    margin: 50px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#projects > h2{
+    font-size: 30px;
+    color: black;
+    padding: 20px;
 }
