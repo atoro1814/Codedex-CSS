@@ -12,7 +12,7 @@ body{
 nav{
     background-color: #323232;
 }
-li{
+.nav-options{
     display: inline-block;
 
 }
@@ -20,16 +20,15 @@ ul{
     text-align: center;
     padding: 15px;
 }
-li > a {
+.nav-options > a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px;
 }
-li > a:hover {
+.nav-options > a:hover {
     color: #323232;
     background-color: whitesmoke;
-    
 }
 #presentacion{
     color: black;
@@ -85,16 +84,3 @@ li > a:hover {
 
 /* projects */
 
-#projects{
-    border: 2px solid #323232;
-    margin: 50px;
-    height: 400px;
-    text-align: center;
-    border-radius: 10px;
-    
-}
-#projects > h2{
-    font-size: 30px;
-    color: black;
-    padding: 20px;
-}
