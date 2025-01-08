@@ -6,6 +6,7 @@
 
 body{
     background-color: #DDD0C8;
+    font-family: "Tinos", sans-serif;
 }
 
 /* Menu Horizontal */
@@ -83,4 +84,38 @@ ul{
 
 
 /* projects */
+#projects{
+    padding: 60px;
+    
+    
+}    
+#projects > h2 {
+    text-align: center;
+}
+.container-projects > h3{
+    margin-top: 10px;
+}
+.container-projects > p{
+    margin-top:10px;
+}
 
+.container-projects > img{
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+}
+.container-projects{
+    text-align: center;
+    margin-top: 20px;
+    ;
+}
+
+.container-projects > a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 15px;
+    background-color: #323232;
+    width: auto;
+    margin: 20px 40% 10px 40%;
+}
