@@ -177,7 +177,15 @@ form > button{
     cursor: pointer;
 }
 
-#social-media-links > img{
+#social-media-links > a > img{
     height: 40px;
     width: 40px;
+}
+#social-media-links > a{
+    text-align: center;
+    margin: 10px;
+}
+
+#info-contact > h2,p{
+    margin-bottom: 10px;
 }
